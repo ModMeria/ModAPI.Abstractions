@@ -2,6 +2,6 @@ namespace ModAPI.Abstractions
 {
     public interface IMod
     {
-        void Init();
+        void Init(IModApi api);
     }
 }
