@@ -1,7 +1,7 @@
 using ModAPI.Abstractions;
 using StbImageSharp;
 
-namespace ModAPI.Core.Config;
+namespace ModAPI.Abstractions.Config;
 
 public class ItemConfig
 {

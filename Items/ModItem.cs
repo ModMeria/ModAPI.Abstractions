@@ -1,5 +1,4 @@
 using ModAPI.Abstractions.Config;
-using ModAPI.Core.Config;
 
 namespace ModAPI.Abstractions.Items
 {
