@@ -4,7 +4,7 @@ namespace ModAPI.Abstractions.Builders;
 
 public class ItemBuilder
 {
-    public static ItemConfig Build(string id)
+    public ItemConfig Build(string id)
     {
         return new ItemConfig(id);
     }
