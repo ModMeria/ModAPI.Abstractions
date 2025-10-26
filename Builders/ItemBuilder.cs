@@ -13,7 +13,7 @@ public class ItemBuilder
 public sealed class ItemConfig
 {
     public string Id { get; private set; }
-    public int TextureX { get; private set; } = 0;
+    public int TextureX { get; private set; } = 64;
     public int TextureY { get; private set; } = 0;
     public int TextureAtlas { get; private set; } = 0;
     public string? TexturePath { get; private set; }
