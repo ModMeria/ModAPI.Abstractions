@@ -1,10 +1,8 @@
 namespace ModAPI.Abstractions.Registries;
 
-public interface IRegistry<T>
+public interface IRegistry<TKey, TValue>
 {
-    T Register(string id, T item);
-    bool TryGet(string id, out T item);
-    IReadOnlyDictionary<string, T> GetAll();
-    // Hack because IRegistry<T>
-    IReadOnlyDictionary<string, string> GetAll(string locale);
+    TValue Register(TKey item);
+    bool TryGet(TKey key, out TValue item);
+    IReadOnlyDictionary<TKey, TValue> GetAll();
 }
